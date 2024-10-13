@@ -1,0 +1,31 @@
+{
+    "apps" : [
+        {
+            "environment": "production",
+            "status": "enabled",
+            "community": [
+                {
+                    "name": "community screening",
+                    "appVersion": "v 1.0.0",
+                    "labels": [
+                        "Latest", 
+                        "bug"
+                    ],
+                    "releaseDate": "2024-10-10",
+                    "downloadUrl": "https://test.com"
+                }
+            ], 
+            "clinic": [
+                {
+                    "name": "clinic app"
+                }
+            ]
+        },
+        {
+            "environment": "staging",
+            "status": "enabled",
+            "community": [], 
+            "clinic": []
+        }
+    ]
+}
