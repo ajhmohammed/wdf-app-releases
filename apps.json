@@ -5,7 +5,7 @@
             "status": "disabled",
             "community": [
                 {
-                    "id": "CS241014A",
+                    "id": "CS_TR_241014A",
                     "name": "community screening",
                     "versionCode": "11",
                     "appVersion": "v 2.0.0",
@@ -14,7 +14,7 @@
                         "stable"
                     ],
                     "releaseDate": "2024-10-10",
-                    "downloadUrl": "new.apk"
+                    "downloadUrl": "./apk/CS_TR_241014A.apk"
                 }
             ], 
             "clinic": [
