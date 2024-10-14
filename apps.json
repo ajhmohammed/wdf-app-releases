@@ -2,28 +2,39 @@
     "apps" : [
         {
             "environment": "production",
-            "status": "enabled",
+            "status": "disabled",
             "community": [
                 {
+                    "id": "CS241014A",
                     "name": "community screening",
-                    "appVersion": "v 1.0.0",
+                    "versionCode": "11",
+                    "appVersion": "v 2.0.0",
                     "labels": [
-                        "Latest", 
-                        "bug"
+                        "latest",
+                        "stable"
                     ],
                     "releaseDate": "2024-10-10",
-                    "downloadUrl": "https://test.com"
+                    "downloadUrl": "new.apk"
                 }
             ], 
             "clinic": [
-                {
-                    "name": "clinic app"
-                }
             ]
         },
         {
             "environment": "staging",
+            "status": "disabled",
+            "community": [], 
+            "clinic": []
+        },
+        {
+            "environment": "Training",
             "status": "enabled",
+            "community": [], 
+            "clinic": []
+        },
+        {
+            "environment": "Demo",
+            "status": "disabled",
             "community": [], 
             "clinic": []
         }
