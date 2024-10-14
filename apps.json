@@ -4,18 +4,7 @@
             "environment": "production",
             "status": "disabled",
             "community": [
-                {
-                    "id": "CS_TR_241014A",
-                    "name": "community screening",
-                    "versionCode": "11",
-                    "appVersion": "v 2.0.0",
-                    "labels": [
-                        "latest",
-                        "stable"
-                    ],
-                    "releaseDate": "2024-10-10",
-                    "downloadUrl": "./apk/CS_TR_241014A.apk"
-                }
+                
             ], 
             "clinic": [
             ]
@@ -29,7 +18,20 @@
         {
             "environment": "Training",
             "status": "enabled",
-            "community": [], 
+            "community": [
+                {
+                    "id": "CS_TR_241014A",
+                    "name": "community screening",
+                    "versionCode": "11",
+                    "appVersion": "v 2.0.0",
+                    "labels": [
+                        "latest",
+                        "stable"
+                    ],
+                    "releaseDate": "2024-10-10",
+                    "downloadUrl": "./apk/CS_TR_241014A.apk"
+                }
+            ], 
             "clinic": []
         },
         {
