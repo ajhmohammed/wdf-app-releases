@@ -71,7 +71,6 @@
     
     <div class="container">
       <main>
-
         <div class="py-5 text-center">
           <img id="theme-logo" class="d-block mx-auto mb-2" src="./img/dc_color_.png" alt="" width="" height="80">
           <h2>Diabetes Compass App Releases</h2>
@@ -91,7 +90,6 @@
         </div>  
 
         <div id="errorContent"></div>
-
       </main>
     </div>
 
@@ -230,6 +228,15 @@
                   downloadBtn.classList.add('btn', 'btn-primary', 'btn-sm')
                   downloadBtn.setAttribute('href', `${community.downloadUrl}`)
                   actions.appendChild(downloadBtn)
+
+                  if(community.googleDriveUrl) {
+                    const googleDriveBtn = document.createElement('a')
+                    googleDriveBtn.textContent = 'Drive Link';
+                    googleDriveBtn.classList.add('btn', 'btn-success', 'btn-sm')
+                    googleDriveBtn.setAttribute('href', `${community.googleDriveUrl}`)
+                    actions.appendChild(googleDriveBtn)
+                  }
+
                   row.appendChild(actions)
 
                   tbody.appendChild(row)
