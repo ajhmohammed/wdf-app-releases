@@ -225,14 +225,14 @@
                   const actions = document.createElement('td')
                   const downloadBtn = document.createElement('a')
                   downloadBtn.textContent = 'Download';
-                  downloadBtn.classList.add('btn', 'btn-primary', 'btn-sm')
+                  downloadBtn.classList.add('btn', 'btn-primary', 'btn-sm', 'mx-1')
                   downloadBtn.setAttribute('href', `${community.downloadUrl}`)
                   actions.appendChild(downloadBtn)
 
                   if(community.googleDriveUrl) {
                     const googleDriveBtn = document.createElement('a')
                     googleDriveBtn.textContent = 'Drive Link';
-                    googleDriveBtn.classList.add('btn', 'btn-success', 'btn-sm')
+                    googleDriveBtn.classList.add('btn', 'btn-success', 'btn-sm', 'mx-1')
                     googleDriveBtn.setAttribute('href', `${community.googleDriveUrl}`)
                     actions.appendChild(googleDriveBtn)
                   }
