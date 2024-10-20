@@ -4,7 +4,32 @@
             "environment": "production",
             "status": "disabled",
             "community": [
-                
+                {
+                    "id": "DC_PROD_241020A",
+                    "name": "Diabetes Compass",
+                    "versionCode": "11",
+                    "appVersion": "v 2.0.0",
+                    "labels": [
+                        "latest",
+                        "stable"
+                    ],
+                    "releaseDate": "2024-10-14",
+                    "downloadUrl": "./apk/DC_PROD_241020A.apk",
+                    "googleDriveUrl": "https://drive.google.com/file/d/17hJ-YSEwpsFwL7kuvFT8OdBCtVHt26VD/view?usp=sharing"
+                },
+                {
+                    "id": "CS_PROD_241020A",
+                    "name": "community screening",
+                    "versionCode": "11",
+                    "appVersion": "v 2.0.0",
+                    "labels": [
+                        "latest",
+                        "stable"
+                    ],
+                    "releaseDate": "2024-10-14",
+                    "downloadUrl": "./apk/CS_PROD_241020A.apk",
+                    "googleDriveUrl": "https://drive.google.com/file/d/17hJ-YSEwpsFwL7kuvFT8OdBCtVHt26VD/view?usp=sharing"
+                }
             ], 
             "clinic": [
             ]
