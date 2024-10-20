@@ -2,7 +2,7 @@
     "apps" : [
         {
             "environment": "production",
-            "status": "disabled",
+            "status": "enabled",
             "community": [
                 {
                     "id": "DC_PROD_241020A",
