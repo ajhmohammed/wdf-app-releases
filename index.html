@@ -298,6 +298,14 @@
                   downloadBtn.classList.add('btn', 'btn-primary', 'btn-sm')
                   downloadBtn.setAttribute('href', `${clinic.downloadUrl}`)
                   actions.appendChild(downloadBtn)
+
+                  if(clinic.googleDriveUrl) {
+                    const googleDriveBtn = document.createElement('a')
+                    googleDriveBtn.textContent = 'Drive Link';
+                    googleDriveBtn.classList.add('btn', 'btn-success', 'btn-sm', 'mx-1')
+                    googleDriveBtn.setAttribute('href', `${clinic.googleDriveUrl}`)
+                    actions.appendChild(googleDriveBtn)
+                  }
                   row.appendChild(actions)
 
                   tbody.appendChild(row)
