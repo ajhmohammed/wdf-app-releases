@@ -223,11 +223,14 @@
                   row.appendChild(lastUpdated)
 
                   const actions = document.createElement('td')
-                  const downloadBtn = document.createElement('a')
-                  downloadBtn.textContent = 'Download';
-                  downloadBtn.classList.add('btn', 'btn-primary', 'btn-sm', 'mx-1')
-                  downloadBtn.setAttribute('href', `${community.downloadUrl}`)
-                  actions.appendChild(downloadBtn)
+
+                  if(community.downloadBtn) {
+                    const downloadBtn = document.createElement('a')
+                    downloadBtn.textContent = 'Download';
+                    downloadBtn.classList.add('btn', 'btn-primary', 'btn-sm', 'mx-1')
+                    downloadBtn.setAttribute('href', `${community.downloadUrl}`)
+                    actions.appendChild(downloadBtn)
+                  }
 
                   if(community.googleDriveUrl) {
                     const googleDriveBtn = document.createElement('a')
@@ -293,11 +296,14 @@
                   row.appendChild(lastUpdated)
 
                   const actions = document.createElement('td')
-                  const downloadBtn = document.createElement('a')
-                  downloadBtn.textContent = 'Download';
-                  downloadBtn.classList.add('btn', 'btn-primary', 'btn-sm')
-                  downloadBtn.setAttribute('href', `${clinic.downloadUrl}`)
-                  actions.appendChild(downloadBtn)
+
+                  if(clinic.downloadBtn) {
+                    const downloadBtn = document.createElement('a')
+                    downloadBtn.textContent = 'Download';
+                    downloadBtn.classList.add('btn', 'btn-primary', 'btn-sm')
+                    downloadBtn.setAttribute('href', `${clinic.downloadUrl}`)
+                    actions.appendChild(downloadBtn)
+                  }
 
                   if(clinic.googleDriveUrl) {
                     const googleDriveBtn = document.createElement('a')

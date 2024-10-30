@@ -40,12 +40,24 @@
             "community": [], 
             "clinic": [
                 {
+                    "id": "CA_STG_241030A",
+                    "name": "Diabetes Compass Clinic",
+                    "versionCode": "11",
+                    "appVersion": "v 2.0.0",
+                    "labels": [
+                        "latest",
+                        "stable"
+                    ],
+                    "releaseDate": "2024-10-30",
+                    "downloadUrl": "#",
+                    "googleDriveUrl": "https://drive.google.com/file/d/1sfqmXjr4iATqgrtx8PjsMmSu6PfXvHIP/view?usp=sharing"
+                },
+                {
                     "id": "CA_STG_241029B",
                     "name": "clinic app",
                     "versionCode": "11",
                     "appVersion": "v 2.0.0",
                     "labels": [
-                        "latest",
                         "stable"
                     ],
                     "releaseDate": "2024-10-29",
