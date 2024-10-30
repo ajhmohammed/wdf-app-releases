@@ -37,7 +37,21 @@
         {
             "environment": "staging",
             "status": "enabled",
-            "community": [], 
+            "community": [
+                
+                {
+                    "id": "CS_STG_241030A",
+                    "name": "community screening",
+                    "versionCode": "11",
+                    "appVersion": "v 2.0.0",
+                    "labels": [
+                        "latest",
+                        "stable"
+                    ],
+                    "releaseDate": "2024-10-30",
+                    "googleDriveUrl": "https://drive.google.com/file/d/1hCIpLfMVa8T_sV560r2b-XMEYF1X42gd/view?usp=sharing"
+                }
+            ], 
             "clinic": [
                 {
                     "id": "CA_STG_241030A",
