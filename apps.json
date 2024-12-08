@@ -54,13 +54,26 @@
             ], 
             "clinic": [
                 {
+                    "id": "CA_STG_R_2411208A",
+                    "name": "Diabetes Compass Clinic",
+                    "versionCode": "11",
+                    "appVersion": "v 2.0.2",
+                    "labels": [
+                        "Release",
+                        "latest",
+                        "Internal QA"
+                    ],
+                    "releaseDate": "2024-12-08",
+                    "googleDriveUrl": "https://drive.google.com/file/d/170G9XEfgxh5p0tc-XzceZogh4nXIXWSm/view?usp=sharing"
+                },
+                {
                     "id": "CA_STG_D_2411208A",
                     "name": "Diabetes Compass Clinic",
                     "versionCode": "11",
                     "appVersion": "v 2.0.2",
                     "labels": [
                         "debug",
-                        "lastest"
+                        "latest"
                     ],
                     "releaseDate": "2024-12-08",
                     "googleDriveUrl": "https://drive.google.com/file/d/11iFMOcy2lCBJfCc_NOaI9VrrXW35PvWP/view?usp=sharing"
@@ -71,7 +84,6 @@
                     "versionCode": "11",
                     "appVersion": "v 2.0.0",
                     "labels": [
-                        "latest",
                         "stable"
                     ],
                     "releaseDate": "2024-10-30",
